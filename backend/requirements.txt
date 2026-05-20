@@ -1,1 +1,20 @@
+## 🚀 Lancement rapide
 
+### Backend (Google Colab)
+1. Ouvre `notebook/SoilScan_IA_Final.ipynb` dans Colab
+2. Active GPU : Runtime → T4 GPU
+3. Exécute **Cellule A** (restauration) puis **Cellule B** (serveur)
+4. Copie l'URL ngrok affichée
+
+### Android
+1. Ouvre `android/SoilScanIA` dans Android Studio
+2. Dans `Config.java`, mets à jour `BASE_URL` avec l'URL ngrok
+3. Build → Run sur ton téléphone
+
+## 🛠️ Stack technique
+
+**IA & Backend** : Python 3.12 · PyTorch 2.10 · ResNet-50 · FastAPI · ngrok
+
+**Mobile** : Android Java (API 24+) · OkHttp3 · Glide · RecyclerView
+
+## 📁 Structure
