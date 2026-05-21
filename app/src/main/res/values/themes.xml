@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Thème principal -->
+    <style name="Theme.SoilScanIA"
+        parent="Theme.MaterialComponents.Light.NoActionBar">
+        <item name="colorPrimary">@color/vert_principal</item>
+        <item name="colorPrimaryVariant">@color/vert_fonce</item>
+        <item name="colorOnPrimary">@color/blanc</item>
+        <item name="android:windowBackground">@color/fond</item>
+        <item name="android:statusBarColor">@color/vert_fonce</item>
+    </style>
+
+    <!-- Thème Splash -->
+    <style name="Theme.SoilScanIA.Splash"
+        parent="Theme.SoilScanIA">
+        <item name="android:windowFullscreen">true</item>
+        <item name="android:windowBackground">@color/vert_principal</item>
+    </style>
+
+</resources>
