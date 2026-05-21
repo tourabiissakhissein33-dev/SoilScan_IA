@@ -6,7 +6,7 @@
 ![Android](https://img.shields.io/badge/Android-Java-brightgreen)
 ![Accuracy](https://img.shields.io/badge/Accuracy-97.12%25-success)
 
-[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tourabiissakhissein33-dev/SoilScan_IA/blob/main/notebook/SoilScan_IA.ipynb)
+[![Open In Colab](https://colab.research.google.com/assets/colab-badge.svg)](https://colab.research.google.com/github/tourabiissakhissein33-dev/SoilScan_IA/blob/main/notebook/SoilScan_IA_Final.ipynb)
 
 > Application mobile Android de classification des sols par intelligence artificielle.
 
