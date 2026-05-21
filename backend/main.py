@@ -1,5 +1,5 @@
 """
-SoilScan_IA — Backend FastAPI
+SoilScan IA — Backend FastAPI
 Classification des sols par ResNet-50 (97.12% accuracy)
 
 Lancer localement :
@@ -98,7 +98,7 @@ transform = T.Compose([
 
 # ── API FastAPI ───────────────────────────────────────────
 app = FastAPI(
-    title="SoilScan_IA",
+    title="SoilScan IA",
     version="1.0.0",
     description="API de classification des sols par IA — ResNet-50 (97.12% accuracy)"
 )
@@ -115,7 +115,7 @@ def accueil():
     """Route racine — info API"""
     return {
         "status": "ok",
-        "message": "SoilScan_IA — API opérationnelle ✅",
+        "message": "SoilScan IA — API opérationnelle ✅",
         "accuracy": "97.12%",
         "classes": CLASSES,
         "endpoints": {
